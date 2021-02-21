@@ -1,0 +1,12 @@
+.header-title{
+    display: inline-block;
+
+    font-family: 'Londrina Solid', cursive;
+    color: var(--headerFont);
+    font-size: 35px;
+
+    margin-bottom: 20px;
+}
+.header-title > a{
+    color: var(--headerFont);
+}

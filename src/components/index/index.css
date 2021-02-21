@@ -1,0 +1,122 @@
+/* header css */
+.header{
+    margin: 0px 45px;
+}
+.header-title{
+    display: inline-block;
+
+    font-family: 'Londrina Solid', cursive;
+    color: var(--headerFont);
+    font-size: 35px;
+
+    margin-bottom: 20px;
+}
+.header-title > a{
+    color: var(--headerFont);
+}
+.header-menu{
+    margin-top: 20px;
+}
+.header-img{
+    position: relative;
+    background-image: url(./header2.jpg);                                                               
+    height: 50%;
+    background-size: cover;
+
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 60%);
+    border-radius: 30px;
+}
+.img-cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.6);                                                                  */
+    z-index:1;
+    border-radius: 30px;
+ }
+
+ .header-img .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:5rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+
+    font-family: 'Londrina Solid', cursive;
+}
+
+
+/**************/
+
+
+/* menu css */
+#menu{
+   margin: 20px 0px;
+}
+/************/
+
+
+/* contents css */
+#contents{
+    margin-top: 50px;
+}
+
+
+.project-box{
+    border: 1px solid var(--borderColor);
+    width: auto;
+    height: auto;
+    border-radius : 10px;
+
+    padding: 20px 20px;
+    margin-bottom: 20px;
+
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
+}
+.project-box > h4{
+    color: var(--h1Color);
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* .project-list{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} */
+.project-title{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.project-title > i{
+    color: var(--infoColor);
+}
+.project-info{
+    margin-top: 10px;
+}
+.project-writer{
+    color: var(--infoColor);
+}
+.project-date{
+    color: var(--infoColor);
+}
+/************/
+
+
+/*  footer css  */
+#footer{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--h1Color);
+}
+
+/****************/
