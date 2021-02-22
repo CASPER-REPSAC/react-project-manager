@@ -7,16 +7,16 @@
     display: inline-block;
 
     font-family: 'Londrina Solid', cursive;
-    color: var(--headerFont);
     font-size: 35px;
 
     margin-bottom: 20px;
 }
 .header-title > a{
-    color: var(--headerFont);
+    color: var(--header-color);
 }
 .menu-btn{
     margin-right: 5px;
+    color: var(--header-color);
 }
 
 .header-img{
