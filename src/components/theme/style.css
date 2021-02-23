@@ -1,0 +1,35 @@
+body.light {
+    --background-color: white;
+    --font-weight: 400;
+    --color: black;
+
+    --filterBtnColor: #f3f4f6;
+    --borderColor: #e1e4e8;
+    --h1Color: black;
+    --infoColor: #586069;
+
+}
+
+body.dark {
+    --background-color: #0d1117;
+    --font-weight: 500;
+    --color: white;
+
+    --filterBtnColor: #21262d;
+    --borderColor: #30363d;
+    --h1Color: #c9d1d9;
+    --infoColor: #8b949e;
+}
+
+body {
+    background: var(--background-color);
+    font-weight: var(--font-weight);
+    transition: background 0.3s ease-in-out;
+}
+
+a{ text-decoration: none; }
+a:hover{ text-decoration: none; }
+hr{
+    border: 1px solid;
+    margin-top: 25px;
+}

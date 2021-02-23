@@ -1,0 +1,7 @@
+body {
+    background: #363537;
+    color: #FAFAFA;
+    /* background: #FFF;
+    color: #363537; */
+    transition: all 0.50s linear;
+}

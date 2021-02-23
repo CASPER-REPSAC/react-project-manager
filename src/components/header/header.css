@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+.header-menu{
+    margin-top: 20px;
+}
+.header-title{
+    display: inline-block;
+
+    font-family: 'Londrina Solid', cursive;
+    font-size: 35px;
+
+    margin-bottom: 20px;
+}
+.header-title > a{
+    color: var(--color);
+}
+.menu-btn{
+    margin-right: 5px;
+    color: var(--color);
+}
