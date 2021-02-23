@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
+
 import Example from './Modal';
+import HeaderImage from './HeaderImage';
 
 import './header.css';
-import image from '../../assets/image/header2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGhost } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faGoogle } from "@fortawesome/free-brands-svg-icons";
@@ -19,13 +20,6 @@ const Header = () => {
                 <Example />
                 <a className="menu-btn" href="/write"><button type="button" className="btn btn-secondary">Write</button></a>
                 <a className="menu-btn" href="/logout"><button type="button" className="btn btn-secondary">Logout</button></a>
-            </div>
-            <div className="header-img" style={{ backgroundImage: `url('${image}')`, backgroundSize: 'cover'}}>
-                <div className="content">
-                    <h1>Pr<FontAwesomeIcon icon={faGhost} />ject Manager</h1>
-                    <h5>For Casper</h5>
-                </div>
-                <div className="img-cover"></div>
             </div>
         </div>
     );
