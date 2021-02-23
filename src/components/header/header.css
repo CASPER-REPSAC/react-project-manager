@@ -12,9 +12,9 @@
     margin-bottom: 20px;
 }
 .header-title > a{
-    color: var(--header-color);
+    color: var(--color);
 }
 .menu-btn{
     margin-right: 5px;
-    color: var(--header-color);
+    color: var(--color);
 }

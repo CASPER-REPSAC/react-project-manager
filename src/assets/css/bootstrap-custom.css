@@ -4,7 +4,7 @@
 
 .btn-secondary{
 	background-color: var(--filterBtnColor);
-	color: var(--filterBtnFont);
+	color: var(--color);
 }
 
 .modal-dialog.modal-fullsize {

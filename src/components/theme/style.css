@@ -1,13 +1,24 @@
 body.light {
     --background-color: white;
     --font-weight: 400;
-    --header-color: black;
+    --color: black;
+
+    --filterBtnColor: #f3f4f6;
+    --borderColor: #e1e4e8;
+    --h1Color: black;
+    --infoColor: #586069;
+
 }
 
 body.dark {
     --background-color: #0d1117;
     --font-weight: 500;
-    --header-color: white;
+    --color: white;
+
+    --filterBtnColor: #21262d;
+    --borderColor: #30363d;
+    --h1Color: #c9d1d9;
+    --infoColor: #8b949e;
 }
 
 body {
