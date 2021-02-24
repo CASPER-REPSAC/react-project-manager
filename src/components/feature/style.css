@@ -8,6 +8,14 @@ body.light {
     --h1Color: black;
     --infoColor: #586069;
 
+    --likeColor: #6a737c;
+
+    --commentInfoBox: #e8eaec;
+
+    --writeFormInput: white;
+    --writeFormInputBorder: #e1e4e8;
+    --writeFormInputFocus: black;
+    --writeFormDateIcon: 0;
 }
 
 body.dark {
@@ -19,6 +27,15 @@ body.dark {
     --borderColor: #30363d;
     --h1Color: #c9d1d9;
     --infoColor: #8b949e;
+
+    --likeColor: #8b949e;
+
+    --commentInfoBox: #161b22;
+
+    --writeFormInput: #0d1117;
+    --writeFormInputBorder: #21262d;
+    --writeFormInputFocus: #006aff;
+    --writeFormDateIcon: 1;
 }
 
 body {

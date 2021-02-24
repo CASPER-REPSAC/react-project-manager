@@ -1,0 +1,52 @@
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-comment-box{
+    margin-top: 20px;
+}
+.comment-writer-image{
+    position: relative;
+    text-align: center;
+
+    left: 30px;
+    top: 5px;
+}
+.comment-writer-image > img{
+    border-radius: 50px;
+    width: 60px;
+}
+.comment-info{
+    background-color: var(--commentInfoBox);
+    color: var(--h1Color);
+    padding: 20px;
+    border-radius: 30px;
+
+    width: 100%;
+}
+.comment-writer{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.comment-reply{
+    color: blue;
+    font-weight: bold;
+    cursor:pointer
+}
+
+.write-form-input, .write-form-textarea{
+    background-color: var(--writeFormInput);
+    border: 1px solid var(--writeFormInputBorder);
+    color: var(--fontColor);
+}
+.write-form-input:focus{
+    background-color: var(--writeFormInput);
+    border: 1px solid var(--writeFormInputBorder);
+    color: var(--fontColor);
+}
+.write-form-textarea{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
