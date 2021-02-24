@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+.menu{
+    margin-bottom: 70px;
+}
+
+.contents-box{
+    border: 1px solid var(--borderColor);
+    border-radius : 10px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
+
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-title, .project-subtitle{
+    font-family: 'Do Hyeon', sans-serif;
+    color: var(--h1Color);
+}
+
+.project-content{
+    margin-top: 70px;
+    word-break:break-all;
+}
+
+.project-section-title > h3,  .project-section-info, .project-opinion, .comments > span{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: var(--h1Color);
+}
+
+.project-opinion-contents{
+    margin-left: 30px;
+}
+
+.project-tag{
+    margin: 10px 0px;
+}
+
+.contents-box{
+    color: var(--h1Color);
+}
+
+
+#pdf-main-container{
+    display: inline-block;
+}
+.pdf-to-image-canvas{
+    border: 1px solid black;
+}
+.pdf-to-image-canvas2{
+    width: 100%;
+}
+
+.like-unlike{
+    text-align : center;
+    font-size: 25px;
+    color: var(--likeColor);
+}
+
+.fa-chevron-up, .fa-chevron-down{
+    cursor: pointer;
+}
