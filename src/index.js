@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.min.css';
 import './assets/css/bootstrap-custom.css';
-import './components/theme/style.css';
+import './components/feature/style.css';
 
 ReactDOM.render(
   <React.StrictMode>

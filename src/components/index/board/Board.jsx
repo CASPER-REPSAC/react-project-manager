@@ -16,7 +16,7 @@ const Board = () => {
         }
         get_board_data();
     }, [])
-    
+
     return (
         <div className="container">
             <div className="row">
@@ -35,7 +35,7 @@ const Board = () => {
                 <div className="col-sm-4">
                     <div className="project-box">
                         <h4><FontAwesomeIcon icon={faGhost} /> comment</h4>
-                        {data && data.comment.map(d => <BuildPost data={d} key={d.comment_idx}/>)}
+                        {data && data.comment.map(d => <BuildComment data={d} key={d.comment_idx + 10000}/>)}
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ const BuildPost = (prop) => {
             {badge.map((d,key) => <BuildBadge data={d} key={key}/>)}
             <div className="project-info">
                 <span className="project-writer">{prop.data.writer}</span>
-                <span className="project-date">{prop.data.post_date}</span>
+                <span className="project-date"> {prop.data.post_date}</span>
             </div>
             <hr />
         </div>
@@ -64,11 +64,11 @@ const BuildPost = (prop) => {
 
 const BuildComment = (prop) => {
     return (
-        <div class="project-list">
-            <span class="project-title"><i class="fas fa-comments"></i> <a href={"/post/" + prop.data.post_idx}>{prop.data.comment_content}</a></span>
-            <div class="project-info">
-                <span class="project-writer">{prop.data.writer}</span>
-                <span class="project-date">{prop.data.comment_date}</span>
+        <div className="project-list">
+            <span className="project-title"><i className="fas fa-comments"></i> <a href={"/post/" + prop.data.post_idx}>{prop.data.comment_content}</a></span>
+            <div className="project-info">
+                <span className="project-writer">{prop.data.writer}</span>
+                <span className="project-date">{prop.data.comment_date}</span>
             </div>
             <hr />
         </div>
